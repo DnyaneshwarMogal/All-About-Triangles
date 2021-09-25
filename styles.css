@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --brown: black;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    font-family: inherit;
+    padding: 1.5rem;
+}
+
+.containerlist {
+    max-width: 40vh;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.containeritem {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: var(--brown);
+    padding: 1rem;
+    color: white;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.containeritem a {
+    color: white;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.link-active {
+    font-weight: bold;
+    font-size: medium;
+}
+
+/* nav  */
+
+
+
+.nav-brand .link {
+    padding: 0;
+    
+  }
+  
+  
+.list-non-bullet {
+    list-style: none;
+    
+  }
+  
+.list-item-inline {
+    display: inline;
+    padding: 0rem;
+    
+  }
+  
+.nav-wrapper {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+
+  }
+  
+.navigation {
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2.1rem;
+    padding: 30px;
+  }
+  
+.nav-brand a {
+    text-decoration: none;
+    color: inherit;
+    
+  }
+  
+.navigation .nav-pills {
+    text-align: right;
+  }
+  
+.navigation .link {
+    color: white;
+    
+  }
+  
+.navigation .link-active {
+   font-weight: bold;
+   text-align: left;
+  }
+/* footer  */
+
+#footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+  }
+  #footer li {
+    list-style: none;
+    padding: 1.5rem 1rem 1rem;
+    font-size: 1.1rem;
+  }
+  
+  i {
+    color: black;
+  }
+  
+  .legacyText {
+    font-size: 0.8rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: black;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
